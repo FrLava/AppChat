@@ -1,4 +1,4 @@
-package appchat.controlleur;
+package dta.chat.controlleur;
 
 public interface ChatAuthController {
 	

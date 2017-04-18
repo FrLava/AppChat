@@ -1,4 +1,4 @@
-package appchat.vue.console;
+package dta.chat.vue.console;
 
 import java.util.ArrayList;
 import java.util.List;

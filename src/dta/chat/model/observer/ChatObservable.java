@@ -1,4 +1,4 @@
-package appchat.model.observer;
+package dta.chat.model.observer;
 
 import java.util.ArrayList;
 import java.util.List;

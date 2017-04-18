@@ -1,9 +1,9 @@
-package appchat.vue.console;
+package dta.chat.vue.console;
 
 import java.util.Scanner;
 
-import appchat.controlleur.ChatAuthController;
-import appchat.controlleur.LoginControlleur;
+import dta.chat.controlleur.ChatAuthController;
+import dta.chat.controlleur.LoginControlleur;
 
 public class ChatConsoleLoginView extends ViewComposite{
 

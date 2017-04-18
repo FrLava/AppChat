@@ -1,7 +1,7 @@
-package appchat.vue.console;
+package dta.chat.vue.console;
 
-import appchat.model.ChatMessage;
-import appchat.model.observer.ChatObserver;
+import dta.chat.domain.ChatMessage;
+import dta.chat.model.observer.ChatObserver;
 
 public class ChatConsoleConversationView extends ViewComposite implements ChatObserver<ChatMessage>{
 

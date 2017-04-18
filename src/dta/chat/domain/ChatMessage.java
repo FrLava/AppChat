@@ -1,6 +1,10 @@
-package appchat.model;
+package dta.chat.domain;
 
-public class ChatMessage {
+import java.io.Serializable;
+
+public class ChatMessage implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
 	private String login;
 	private String text;
 	

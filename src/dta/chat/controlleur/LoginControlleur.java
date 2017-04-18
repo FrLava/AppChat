@@ -1,10 +1,10 @@
-package appchat.controlleur;
+package dta.chat.controlleur;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import appchat.model.ChatConversationModel;
-import appchat.vue.console.ChatConsoleLoginView;
+import dta.chat.model.ChatConversationModel;
+import dta.chat.vue.console.ChatConsoleLoginView;
 
 public class LoginControlleur implements ChatAuthController {
 
@@ -30,6 +30,7 @@ public class LoginControlleur implements ChatAuthController {
 		if(listLoginValid.contains(login)){
 			loginView.sayWelcome(login);
 			convModel.setLogin(login);
+			convModel.startListenning();
 		}
 		else
 			loginView.sayAccessDenied(login);

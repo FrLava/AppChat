@@ -1,4 +1,4 @@
-package appchat.model.observer;
+package dta.chat.model.observer;
 
 @FunctionalInterface
 public interface ChatObserver<T> {

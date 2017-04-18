@@ -1,4 +1,4 @@
-package appchat.vue.console;
+package dta.chat.vue.console;
 
 public class ChatConsoleView extends ViewComposite{
 

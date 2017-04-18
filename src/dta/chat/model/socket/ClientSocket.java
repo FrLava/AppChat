@@ -5,7 +5,10 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
-public class ClientSocket extends Socket {
+import dta.chat.domain.ChatMessage;
+import dta.chat.exception.ChatClientException;
+
+public class ClientSocket extends Socket{
 
 	private ObjectInputStream serverInput;
 	private ObjectOutputStream serverOuput;
@@ -27,10 +30,14 @@ public class ClientSocket extends Socket {
 	// Pour démo
 	public static void main(String[] args) throws IOException {
 		ClientSocket client = new ClientSocket("localhost", 1800);
+
 		client.sendObject("Bonjour");
+		
+	
 		client.close();
 		// client.readObject(); // pour recevoir un message du serveur
 		
 	}
+
 
 }

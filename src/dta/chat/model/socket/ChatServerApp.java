@@ -1,4 +1,4 @@
-package dta.chat;
+package dta.chat.model.socket;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
